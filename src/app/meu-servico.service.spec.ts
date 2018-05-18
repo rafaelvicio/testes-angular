@@ -2,6 +2,9 @@ import { TestBed, inject } from '@angular/core/testing';
 
 import { MeuServicoService } from './meu-servico.service';
 
+// https://medium.com/google-developer-experts/angular-2-testing-guide-a485b6cb1ef0
+// https://medium.com/netscape/testing-with-the-angular-httpclient-api-648203820712
+
 describe('MeuServicoService', () => {
 
   beforeEach(() => {

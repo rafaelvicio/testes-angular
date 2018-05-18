@@ -9,4 +9,8 @@ export class MeuServicoService {
     return nome;
   }
 
+  getLinguas() {
+    return ['pt', 'br', 'en'];
+  }
+
 }
